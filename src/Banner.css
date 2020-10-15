@@ -1,0 +1,40 @@
+.banner{
+    background: url("https://cdn.pixabay.com/photo/2018/07/31/20/08/interior-3575819_1280.jpg") center center;
+    height: 50vh;
+    position: relative;
+}
+.banner_info{
+    color: black;
+    padding-top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+    background-color: whitesmoke;
+}
+.banner_search{
+    display: flex;
+    flex-direction: column ;
+}
+.banner_searchButton{
+    background-color: whitesmoke !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
+
+
+.banner_info >button{
+    background-color: #ff7779;
+    color: rgb(0, 0, 0);
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.banner_info> h5{
+    margin-top:10px;
+}
+.banner_info >button:hover{
+    color: #ff7779;
+    background-color: black;
+}
